@@ -1,6 +1,5 @@
 body{
-	width: 600px;
-	margin : auto;
+	text-align: center;
 }
 ul{
 	list-style: none;
@@ -8,16 +7,16 @@ ul{
 	padding-left: 0;
 	margin: 0;
 }
-#bangalore{
-	position: absolute;
-	left: 10px;
-}
-#delhi{
-	position: absolute;
-	left: 500px;
+#bangalore,#delhi{
+	display: inline-block;
+	vertical-align: top;
+    width: 450px;
 }
 .weatherDiv{
 	max-height: 400px;
+}
+.weatherBtn{
+	    margin-top: 70px;
 }
 li:first-child{
 	border-top: 0;
@@ -28,11 +27,12 @@ li{
 	border-top: 1px solid #c3c3c3;
 }
 .main{
-	width: 400px;
-	overflow-x: hidden;
-	overflow-y : auto;
-	margin-top: 100px;
-	border: 1px solid #c3c3c3;
+    width: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #c3c3c3;
 }
 .hidden{
 	display: none;
