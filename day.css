@@ -15,9 +15,6 @@ ul{
 .weatherDiv{
 	max-height: 400px;
 }
-.weatherBtn{
-	    margin-top: 70px;
-}
 li:first-child{
 	border-top: 0;
 }
@@ -33,7 +30,4 @@ li{
     margin: auto;
     margin-top: 20px;
     border: 1px solid #c3c3c3;
-}
-.hidden{
-	display: none;
 }
